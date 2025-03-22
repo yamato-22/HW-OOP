@@ -50,17 +50,3 @@ class Reviewers(Mentor):
                 student.grades[course] = [grade]
         else:
             return 'Ошибка'
-
-
-
-# student1 = Student('Ivan', "Ivanov", 'male')
-# student1.courses_in_progress = ['Python']
-# lecturer1 = Lecturer('Egor', 'Egorov')
-# lecturer1.courses_attached = ['Python']
-# reviewer1 = Reviewers('Peter', 'Petrov')
-# reviewer1.courses_attached = ['Python']
-# reviewer1.rate_hw(student1, 'Python', 10)
-# reviewer1.rate_hw(student1, 'Python', 5)
-# print(student1.grades)
-# student1.rate_lecturer(lecturer1, 'Python', 15)
-# print(f'Преподаватель {lecturer1.name} {lecturer1.surname} имеет следующие отзывы {lecturer1.grades}')

@@ -30,7 +30,6 @@ class Student:
         for grade in self.grades.values():
             summ += sum(grade)
             count += len(grade)
-        # return sum(sum(d) / len(d) for d in self.grades.values()) / len(self.grades)
         return summ / count
 
     def __str__(self):
